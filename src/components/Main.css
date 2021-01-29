@@ -1,0 +1,93 @@
+*{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.gitDarkColor{
+    background-color: #1b1f23;
+}
+
+.searchBar{
+    padding-top:15px;
+    position: relative;
+}
+
+.searchBar input{
+    height: 30px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+.githubIcon{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right:0
+}
+
+
+.showProfile{
+    padding-top: 10px;
+    position: relative;
+}
+
+.showProfile img{
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+    right: 20px;
+}
+
+.username{
+    color: #8d8d8d;
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.bio{
+    width:80%;
+    color: #333;
+}
+
+.company{
+    font-size: 12px;
+}
+
+.location{
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.email{
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.portfolio{
+    font-size: 12px;
+    margin-top: -10px;
+}
+.portfolio> a{
+    text-decoration: none;
+}
+
+.twitter{
+    font-size: 12px;
+    margin-top: -10px;
+}
+.twitter> a{
+    text-decoration: none;
+}
+
+.follow{
+    list-style-type: none;
+    margin: 0;
+    margin-left: -40px;
+}
+.follow li{
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.follow li svg{
+    font-size: 20px;
+}

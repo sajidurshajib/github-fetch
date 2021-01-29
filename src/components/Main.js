@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import {Container,Row,Col, Form} from 'react-bootstrap'
+import Follow from './Follow/Follow'
+
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
@@ -124,6 +126,7 @@ class Main extends Component{
                         </Row>
                     </Container>
                 </div>
+                <Follow followers={this.state.profile.followers_url} following={this.state.profile.following_url}/>
             </div>
         )
     }

@@ -1,6 +1,11 @@
 *{
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
+
+.Main{
+    overflow: hidden;
+}
+
 .gitDarkColor{
     background-color: #1b1f23;
 }
@@ -27,14 +32,12 @@
 
 .showProfile{
     padding-top: 10px;
-    position: relative;
 }
 
 .showProfile img{
     width: 300px;
     border-radius: 5px;
-    position: absolute;
-    right: 20px;
+    margin-left: 50px;
 }
 
 .username{
